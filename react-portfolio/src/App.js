@@ -8,6 +8,7 @@ function App() {
         <p>
           Portfolio Website Created!
         </p>
+        <p>Will be adding more fun stuff soon!</p>
       </header>
     </div>
   );
