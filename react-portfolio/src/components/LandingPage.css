@@ -4,7 +4,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f4;
+    background-image: url('/src/Images/sky-rainbow.jpeg');  
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Set text color to white for better contrast */
   }
   
   .landing-header {
@@ -14,12 +17,12 @@
   
   .landing-title {
     font-size: 3rem;
-    color: #333;
+    color: #fff;
   }
   
   .landing-subtitle {
     font-size: 1.5rem;
-    color: #666;
+    color: #fff;
   }
   
   .landing-content {
@@ -28,7 +31,7 @@
   
   .landing-description {
     font-size: 1.2rem;
-    color: #555;
+    color: #fff;
     margin-bottom: 20px;
   }
   

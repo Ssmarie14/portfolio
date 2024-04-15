@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Button } from 'bootstrap';
 import './LandingPage.css'; 
 
+
 const LandingPage = () => {
   return (
     <div className="landing-page">
