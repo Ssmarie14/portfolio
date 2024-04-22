@@ -61,7 +61,7 @@
   .scrollable-page::before {
     content: '';
     background-image: url('/src/Images/Attic-office.jpg'); /* Replace with your background image */
-    opacity: 0.2;
+    opacity: 0.9;
     position: fixed;
     top: 0;
     left: 0;
