@@ -1,0 +1,72 @@
+.scrollable-page {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px; /* Adjust width as needed */
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+  }
+  
+  .content-area {
+    margin-left: 200px; /* Sidebar width */
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .content-section {
+    margin-bottom: 40px;
+  }
+  
+  .content-section h2 {
+    color: #333;
+  }
+  
+  .content-section p {
+    color: #555;
+  }
+  
+  /* Background Image with Opacity */
+  .scrollable-page::before {
+    content: '';
+    background-image: url('/src/Images/Attic-office.jpg'); /* Replace with your background image */
+    opacity: 0.2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
